@@ -63,6 +63,8 @@ namespace DatingAppAPI
 
             app.UseRouting();
 
+            app.UseCors(police => police.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
