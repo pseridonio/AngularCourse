@@ -46,6 +46,18 @@ namespace DatingAppAPI.Data
                     .HasColumnName("Name")
                     .HasColumnType("VARCHAR(250)")
                     .IsRequired();
+
+                userEntity
+                    .Property(user => user.PasswordSalt)
+                    .HasColumnName("PASSWORD_SALT")
+                    .HasColumnType("BLOB")
+                    .IsRequired();
+
+                userEntity
+                    .Property(user => user.PasswordHash)
+                    .HasColumnName("PASSWORD_HASH")
+                    .HasColumnType("BLOB")
+                    .IsRequired();
             });
         }
     }

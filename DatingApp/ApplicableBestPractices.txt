@@ -1,0 +1,6 @@
+Section 2
+- Apply the "Single Responsibility Principle" to the controllers
+  The AccountController shouldn't be the same to register a new user and validate the credentials
+
+Section 4
+- Giving a better name to TokenService that allow to implements other token types than the JWT

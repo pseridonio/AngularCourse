@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingAppAPI", "DatingAppAPI\DatingAppAPI.csproj", "{A987F460-7A4F-4BDF-A9C3-B9649089EEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingAppAPI", "DatingAppAPI\DatingAppAPI.csproj", "{A987F460-7A4F-4BDF-A9C3-B9649089EEA6}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DatingAppClient", "DatingAppClient\", "{D29A910A-C75B-4AF5-928E-2BD0F5A3ED2C}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -26,6 +26,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DatingAppClient", "DatingAp
 		SlnRelativePath = "DatingAppClient\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{D2DF2F50-F371-4344-990A-CFE2B1137322}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicableBestPractices.txt = ApplicableBestPractices.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,7 +42,6 @@ Global
 		{A987F460-7A4F-4BDF-A9C3-B9649089EEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A987F460-7A4F-4BDF-A9C3-B9649089EEA6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D29A910A-C75B-4AF5-928E-2BD0F5A3ED2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D29A910A-C75B-4AF5-928E-2BD0F5A3ED2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D29A910A-C75B-4AF5-928E-2BD0F5A3ED2C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{D29A910A-C75B-4AF5-928E-2BD0F5A3ED2C}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

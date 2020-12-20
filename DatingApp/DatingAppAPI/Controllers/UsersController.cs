@@ -1,4 +1,5 @@
 ﻿using DatingAppAPI.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DatingAppAPI.Controllers
 {
-    [ApiController, Route("api/[controller]")]
+    [ApiController, Authorize, Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
         private readonly DatabaseContext _dbContext;
